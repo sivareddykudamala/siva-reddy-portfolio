@@ -1,39 +1,48 @@
 {
-  "name": "personal-portfolio",
-  "version": "1.0.0",
-  "description": "Personal portfolio website with React frontend and Node.js backend",
+  "name": "portfolio-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "axios": "^1.4.0",
+    "react-icons": "^4.8.0",
+    "framer-motion": "^10.12.0",
+    "nodemailer": "^6.9.0",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
-    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
-    "dev:frontend": "cd frontend && npm start",
-    "dev:backend": "cd backend && npm run dev",
-    "build": "cd frontend && npm run build",
-    "start": "cd backend && npm start",
-    "install:all": "npm run install:frontend && npm run install:backend",
-    "install:frontend": "cd frontend && npm install",
-    "install:backend": "cd backend && npm install",
-    "test": "npm run test:frontend && npm run test:backend",
-    "test:frontend": "cd frontend && npm test",
-    "test:backend": "cd backend && npm test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "workspaces": [
-    "frontend",
-    "backend"
-  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
-    "concurrently": "^8.2.0"
-  },
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  },
-  "author": "K Venkata Siva Reddy",
-  "license": "MIT",
-  "keywords": [
-    "portfolio",
-    "react",
-    "nodejs",
-    "express",
-    "tailwindcss"
-  ],
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
-}
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  }
+} 

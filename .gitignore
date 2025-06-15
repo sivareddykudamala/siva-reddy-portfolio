@@ -76,3 +76,4 @@ frontend/.eslintcache
 *.njsproj
 *.sln
 *.sw? 
+.vercel
