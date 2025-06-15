@@ -208,28 +208,12 @@ const Experience = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="card p-6 text-center space-y-4">
-              <div className="text-3xl">🏆</div>
-              <h3 className="font-semibold text-gray-900">Team Leadership</h3>
-              <p className="text-gray-600 text-sm">
-                Led development teams and mentored junior developers
-              </p>
-            </div>
-
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <div className="card p-6 text-center space-y-4">
               <div className="text-3xl">⚡</div>
               <h3 className="font-semibold text-gray-900">Performance Optimization</h3>
               <p className="text-gray-600 text-sm">
                 Improved application performance by up to 60%
-              </p>
-            </div>
-
-            <div className="card p-6 text-center space-y-4">
-              <div className="text-3xl">🚀</div>
-              <h3 className="font-semibold text-gray-900">Product Launches</h3>
-              <p className="text-gray-600 text-sm">
-                Successfully launched 15+ products to market
               </p>
             </div>
 
