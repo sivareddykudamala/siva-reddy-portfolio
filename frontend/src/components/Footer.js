@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaGlobe, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from 'react-icons/fa';
 import { personalInfo } from '../data/portfolioData';
 
 const Footer = () => {
