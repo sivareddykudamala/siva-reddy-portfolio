@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Chennai, India",
   email: "kudamalasivareddy@gmail.com",
   phone: "+91 8142519675",
-  bio: "Experienced Software Engineer with 3+ years of expertise in Java, Spring Boot, and microservices architecture. Proven track record of architecting scalable solutions in distributed environments, optimizing system performance by up to 80%, and leading technical initiatives across enterprise-grade applications and complex data migration projects.",
+  bio: "Experienced Software Engineer with 4+ years of expertise in Java, Spring Boot, and microservices architecture. Proven track record of architecting scalable solutions in distributed environments, optimizing system performance by up to 80%, and leading technical initiatives across enterprise-grade applications and complex data migration projects.",
   image: "/ClearProfile.jpeg", // Your professional profile photo
   resume: "/resume.pdf",
   social: {

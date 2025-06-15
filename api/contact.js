@@ -108,7 +108,7 @@ Timestamp: ${new Date().toLocaleString()}
           <div style="background: #e8f0fe; padding: 20px; border-radius: 8px; margin: 20px 0;">
             <h4 style="color: #667eea; margin-top: 0;">About Me:</h4>
             <p style="margin: 0; color: #555; font-size: 14px;">
-              Software Engineer - II at Opsera with 3+ years of experience in Java, Spring Boot, and microservices. 
+              Software Engineer - II at Opsera with 4+ years of experience in Java, Spring Boot, and microservices. 
               Passionate about building scalable solutions and optimizing system performance.
             </p>
           </div>
