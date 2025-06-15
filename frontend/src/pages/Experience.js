@@ -19,15 +19,15 @@ const Experience = () => {
           {/* Experience Stats */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             <div className="text-center space-y-2">
-              <div className="text-3xl lg:text-4xl font-bold text-primary-600">3+</div>
+              <div className="text-3xl lg:text-4xl font-bold text-primary-600">4+</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
             <div className="text-center space-y-2">
-              <div className="text-3xl lg:text-4xl font-bold text-primary-600">3</div>
+              <div className="text-3xl lg:text-4xl font-bold text-primary-600">2</div>
               <div className="text-gray-600">Companies</div>
             </div>
             <div className="text-center space-y-2">
-              <div className="text-3xl lg:text-4xl font-bold text-primary-600">50+</div>
+              <div className="text-3xl lg:text-4xl font-bold text-primary-600">5+</div>
               <div className="text-gray-600">Projects Delivered</div>
             </div>
             <div className="text-center space-y-2">
