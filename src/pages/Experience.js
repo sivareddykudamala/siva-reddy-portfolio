@@ -131,7 +131,7 @@ const Experience = () => {
       </section>
 
       {/* Skills Development */}
-      <section className="section-padding bg-gray-50">
+      {/* <section className="section-padding bg-gray-50">
         <div className="container-width">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">Skills Development Journey</h2>
@@ -196,7 +196,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Career Highlights */}
       <section className="section-padding bg-white">
